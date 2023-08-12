@@ -17,4 +17,9 @@ ggplot(penguins, aes(x = bill_depth_mm, y = bill_length_mm)) +
   geom_point() + 
   geom_smooth(method = 'lm')
 ```
+```{r}
+summary(lm(bill_depth_mm ~ bill_length_mm, data=penguins))
+```
+# https://github.com/yyyitong/DS4B_week3/issues/2#issue-1847774109
+# Problem with life history plot
 
