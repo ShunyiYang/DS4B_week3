@@ -28,4 +28,13 @@ ggplot(penguins, aes(x = bill_depth_mm, y = bill_length_mm), colour = species) +
   geom_smooth(method = 'lm') +
   facet_wrap(~species, ncol = 1)
 ```
+```{r}
+library(skimr)
+library(knitr)
+library(GGally)
+skim(penguins)
+```
+```{r}
+ggpairs(penguins)
+```
 
