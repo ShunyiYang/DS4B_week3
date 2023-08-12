@@ -23,3 +23,10 @@ summary(lm(bill_depth_mm ~ bill_length_mm, data=penguins))
 # https://github.com/yyyitong/DS4B_week3/issues/2#issue-1847774109
 # Problem with life history plot
 
+```{r}
+ggplot(penguins, aes(x = bill_depth_mm, y = bill_length_mm), colour = species) +
+  geom_point() +
+  geom_smooth(method = 'lm') +
+  facet_wrap(~species, ncol = 1)
+```
+
