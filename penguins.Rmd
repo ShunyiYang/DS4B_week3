@@ -1,0 +1,15 @@
+---
+title: "penguins"
+author: "Shunyhi"
+date: "2023-08-12"
+output: html_document
+---
+
+```{r}
+library(ggplot2)
+library(dplyr)
+library(tidyverse)
+penguins <-  read_csv('data/penguins.csv')
+penguins
+```
+
