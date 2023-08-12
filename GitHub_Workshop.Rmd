@@ -1,0 +1,41 @@
+---
+title: "GitHub Workshop"
+author: "Your name and U number"
+date: "Today's date"
+output:  
+    html_document:
+        toc: true
+        toc_depth: 4
+        theme: cosmo
+        number_sections: false
+        toc_float: true
+        highlight: pygments
+        fig_width: 8
+        fig_height: 4
+---
+
+# Introduction
+
+# **Task 2**: Loading the data
+
+### **Tasks**
+
+### **Challenge Task**
+
+# **Task 3**: Plot it
+
+### **Tasks**
+
+### **Challenge Task**
+
+# **Task 4**: Comment on a neighbour
+
+### **Tasks**
+
+### **Challenge Task**
+
+# **Task 5**: Address issues
+
+### **Tasks**
+
+### **Challenge Task**
