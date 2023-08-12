@@ -12,4 +12,9 @@ library(tidyverse)
 penguins <-  read_csv('data/penguins.csv')
 penguins
 ```
+```{r}
+ggplot(penguins, aes(x = bill_depth_mm, y = bill_length_mm)) +
+  geom_point() + 
+  geom_smooth(method = 'lm')
+```
 
